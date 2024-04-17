@@ -1,9 +1,10 @@
 const mainEl = document.querySelector('main');
 mainEl.style.backgroundColor = `var(--main-bg)`;
 
-const title = document.createElement('h1');
-title.innerHTML = "DOM Manipulation";
-mainEl.appendChild(title);
+// const title = document.createElement('h1');
+// title.innerHTML = "DOM Manipulation";
+mainEl.innerHTML = ('<h1>DOM Manipulation</h1> ')
+// mainEl.appendChild(title);
 
 mainEl.setAttribute('class', 'flex-ctr');
 // mainEl.classList.add('flex-ctr'); another way
